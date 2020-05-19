@@ -1,0 +1,30 @@
+.top-news-block {
+    background: linear-gradient(101.31deg, #A2BEE7 0%, rgba(136, 136, 136, 0) 100%);
+    height: 240px;
+    margin-top: 50px;
+    /*display: flex;*/
+    /*flex-flow: row nowrap;*/
+    position: relative;
+}
+
+.top-news-sub-block {
+    position: absolute;
+    margin-left: 38px;
+    margin-top: 56px;
+
+    width: 480px;
+    height: 74px;
+
+}
+
+.top-news-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    color: #000000;
+
+
+}

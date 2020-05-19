@@ -1,0 +1,62 @@
+.header-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.header-text-block {
+    position: absolute;
+
+    margin-left: 100px;
+    margin-top: 10px;
+
+    height: 40px;
+
+}
+
+.header {
+    background: #C4C4C4;
+
+    display: flex;
+    flex-flow: row nowrap;
+
+    /*relative - absolute*/
+    position: relative;
+
+}
+
+.header-block-1 {
+    background: #5B5B5B;
+    width: 207px;
+    height: 60px;
+
+}
+
+.header-block-2 {
+    background: #C4C4C4;
+    height: 60px;
+
+}
+
+.header-block-3 {
+
+
+    width: 100%;
+
+}
+
+.header-user-profile {
+    height: 49px;
+    width: 49px;
+    margin-top: 5px;
+    margin-right: 60px;
+
+    background: #5B5B5B;;
+    float: right;
+}

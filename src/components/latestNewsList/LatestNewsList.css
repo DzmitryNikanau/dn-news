@@ -1,0 +1,41 @@
+.latest-news {
+    margin-top: 17px;
+}
+
+.latest-news-subject {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0;;
+    /*padding: 0;*/
+    color: #000000;
+}
+
+.latest-news ul {
+    margin: 8px 0 0;
+    padding: 0;
+}
+
+.latest-news li {
+    list-style: none;
+    display: inline-block;
+
+    width: 180px;
+    height: 180px;
+
+
+    margin-right: 24px;
+    margin-bottom: 24px;
+
+    background: aquamarine;
+
+}
+
+.latest-news li:last-child {
+
+    margin-right: 0;
+
+
+}
