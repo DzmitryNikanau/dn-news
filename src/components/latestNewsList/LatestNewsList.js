@@ -1,9 +1,10 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "./LatestNewsList.css";
 
 
 class LatestNewsList extends Component {
     state = {};
+
     render() {
         return <div className="latest-news">
             <p className="latest-news-subject">Latest news</p>
@@ -19,4 +20,5 @@ class LatestNewsList extends Component {
         </div>
     }
 }
+
 export default LatestNewsList;

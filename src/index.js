@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
-// import * as serviceWorker from './serviceWorker';
-
 import Header from "./components/header/Header";
 import Search from "./components/search/Search";
 import TopNews from "./components/topNews/TopNews";
 import LatestNewsList from "./components/latestNewsList/LatestNewsList";
+// import App from './App';
+// import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
     <React.StrictMode>
