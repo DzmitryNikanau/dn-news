@@ -1,60 +1,45 @@
 .noselect {
-
-}
-
-.search-form {
-    position: relative;
-    height: 42px;
 }
 
 .search-bar {
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    height: 40px;
-    width: 100%;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 16pt;
+  margin-top: 1pt;
 }
 
 .search-button {
-    width: 94px;
-    height: 34px;
-    margin-top: 6px;
-    margin-left: 4px;
-    /*margin: 0;*/
+  width: 94px;
+  /*margin: 0;*/
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18pt;
 
-    color: #B56969;
+  color: #b56969;
 
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-    -moz-user-select: none; /* Old versions of Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 .search-block {
-    display: flex;
-    flex-flow: row nowrap;
-    position: relative;
-    height: 42px;
+  font-family: Roboto;
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
 }
 
 .search-block-a {
-    margin-top: 1px;
-    width: 100%;
-    margin-right: 3px;
+  margin-top: 1px;
+  width: 100%;
+  margin-right: 3px;
 }
 
 .search-block-b {
-    /*flex-grow: 0.1;*/
-    width: 94px;
-    height: 42px;
-    background: #C4C4C4;
-
-    float: right;
+  float: right;
 }
